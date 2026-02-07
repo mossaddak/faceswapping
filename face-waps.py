@@ -12,7 +12,7 @@ import insightface
 from insightface.app import FaceAnalysis
 
 # Paths
-SOURCE_IMG = "me.jpeg"  # face want to swap FROM
+SOURCE_IMG = "source.jpeg"  # face want to swap FROM
 TARGET_IMG = "target.jpeg"  # face want to swap TO
 OUTPUT_IMG = "output.jpg"
 MODEL_PATH = "models/inswapper_128.onnx"
